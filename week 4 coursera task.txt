@@ -1,0 +1,15 @@
+
+var names = ["John", "Jane", "Jack", "Jessica", "Jim"];
+
+// Loop over each name in the array
+for (var i = 0; i < names.length; i++) {
+    // Convert the current name to lowercase for easier comparison
+    var name = names[i].toLowerCase();
+    
+    // Check if the name starts with letter 'j'
+    if (name.charAt(0) === 'j') {
+        console.log("Goodbye " + names[i]);
+    } else {
+        console.log("Hello " + names[i]);
+    }
+}
